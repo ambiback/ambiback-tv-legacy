@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:id="@+id/swiperefreshwrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <include
+                android:id="@+id/fragment_ambiback_mirror"
+                layout="@layout/fragment_ambiback_mirror"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/devicelistrecycleview"
+            android:name="com.ambiback.app.DeviceItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".ui.DevicesListFragment"
+            tools:listitem="@layout/fragment_device_item" />
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

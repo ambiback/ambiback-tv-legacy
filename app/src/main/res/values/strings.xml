@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AmbiBack</string>
+    <string name="title_activity_main">AmbiBack</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">AmbiBackTV</string>
+    <string name="nav_header_subtitle">Dynamic backlight solution for PC/Android</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_discover">Discover AmbiBack Devices</string>
+    <string name="menu_cleanup">Cleanup dead Devices</string>
+    <string name="menu_cleanup_all">Cleanup all Devices</string>
+    <string name="menu_tools">Tools</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="nav_devices">AmbiBack Devices</string>
+    <string name="screen_mirror">Screen Mirror</string>
+    <string name="preview_box">Image Preview</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_text">
+        "AmbiBack Settings.\n\n"
+    </string>
+    <string name="title_activity_about">About AmbiBack</string>
+    <string name="about_text">
+        "AmbiBack for Android\n\n
+        (C) 2020-2021 by Andre Lorbach\n\n
+This is a BETA release of AmbiBack for Android.
+For support, questions or recommendations regarding the APP, please go to our Website:\n
+https://www.ambiback.de
+        "
+    </string>
+    <string name="title_activity_settings_new">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="general_options">General Options</string>
+    <string name="screenmirror_support">Activate Screen mirroring support</string>
+    <string name="screenmirror_autostart">Autostart Screen mirroring</string>
+    <string name="screenmirror_support_summary">When enabled, your Android Screen will be mirrored to all AmbiBack Devices that have screen mirroring enabled.</string>
+    <string name="screenmirror_autostart_summary">When enabled, Ambiback will automatically start screen mirroring on startup.</string>
+    <string name="enabledevicediscovery_title">Automatically discover devices</string>
+    <string name="enabledevicediscovery_summary">When enabled, the APP will scan for AmbiBack devices automatically on startup.</string>
+
+</resources>

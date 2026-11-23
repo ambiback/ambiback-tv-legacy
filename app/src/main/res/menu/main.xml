@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/app_bar_ambilight"
+            app:showAsAction="always"
+            app:actionLayout="@layout/switch_item_ambilight"
+            android:title="@string/screen_mirror" />
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="102"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_about"
+            android:title="About AmbiBack"
+            android:orderInCategory="102"
+            app:showAsAction="never"></item>
+    <item
+            android:id="@+id/action_discover"
+            android:orderInCategory="102"
+            android:title="@string/menu_discover"
+            app:showAsAction="never"></item>
+    <item
+            android:id="@+id/action_cleanup"
+            android:orderInCategory="102"
+            android:title="@string/menu_cleanup"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/action_cleanup_all"
+            android:orderInCategory="102"
+            android:title="@string/menu_cleanup_all"
+            app:showAsAction="never" />
+</menu>

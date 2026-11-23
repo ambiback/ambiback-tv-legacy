@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_ambiBackMirrorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/layout_bluelight"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <ImageButton
+                android:id="@+id/item_mirrorButton"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:contentDescription="Item Icon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/icon_mirror" />
+
+        <LinearLayout
+                android:id="@+id/mirrorwrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/item_mirrorlabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/device_text_margin"
+                    android:text="Activate Screen Mirroring"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textStyle="bold" />
+
+            <TextView
+                    android:id="@+id/item_mirrordescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/device_text_margin"
+                    android:text="If enabled, your Android Screen will be mirrored
+through all enabled AmbiBack devices."
+                    android:textAppearance="?attr/textAppearanceListItem" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <Switch
+            android:id="@+id/item_switchMirror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable screen mirroring"
+            android:textStyle="bold" />
+
+</LinearLayout>

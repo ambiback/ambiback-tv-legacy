@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/icon_smarttv"
+                android:title="@string/menu_home"/>
+        <!--<item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menu_tools"/>-->
+    </group>
+
+    <item android:title="@string/nav_devices" android:id="@+id/nav_devices">
+        <menu>
+            <item
+                    android:id="@+id/nav_device_sample"
+                    android:title="Sample Device"
+                    android:icon="@drawable/icon_ambiback_controller"
+                    app:showAsAction="always"
+                    app:actionLayout="@layout/switch_item" android:visible="false"/>
+        </menu>
+    </item>
+
+</menu>

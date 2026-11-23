@@ -1,0 +1,2 @@
+# Keep the Unix launcher runnable on Linux and macOS
+gradlew text eol=lf
