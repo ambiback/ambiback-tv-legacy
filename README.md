@@ -1,34 +1,36 @@
 # AmbiBack TV (Legacy)
 
-Frühere Android-TV-App von AmbiBack. Sie nimmt den Bildschirminhalt auf und sendet die Farben über das Netzwerk an AmbiBack-Geräte.
+**English** · [Deutsch](README.de.md)
 
-> **Archiviert:** Dieses Repository wird nicht mehr weiterentwickelt und dient der Dokumentation. Für die Einrichtung und Steuerung aktueller Firmware gibt es den [AmbiBack Manager](https://github.com/ambiback/ambiback-manager).
+Former Android TV app for AmbiBack. It captures the screen content and sends the colors over the network to AmbiBack devices.
 
-Die AmbiBack-Geräte werden seit rund fünf Jahren nicht mehr verkauft. Mehr zum Projekt steht auf [ambiback.de](https://www.ambiback.de/).
+> **Archived:** This repository is no longer developed and is kept for documentation. To set up and control current firmware, use [AmbiBack Manager](https://github.com/ambiback/ambiback-manager).
 
-## Funktionen
+AmbiBack devices have not been on sale for around five years. More about the project at [ambiback.de](https://www.ambiback.de/).
 
-- Bildschirmaufnahme über die Android-MediaProjection-API
-- Geräte im lokalen Netzwerk per UDP finden
-- Farbdaten an ausgewählte AmbiBack-Geräte senden
-- Geräte- und App-Einstellungen
+## Features
 
-## Bauen
+- Screen capture through the Android MediaProjection API
+- Find devices on the local network over UDP
+- Send color data to selected AmbiBack devices
+- Device and app settings
 
-Das Projekt nutzt den Stand von 2020/2021: Gradle 6.5, Android Gradle Plugin 4.1.2, Kotlin 1.3.31, Android API 28 und das abgeschaltete Repository JCenter. Mit aktuellen JDKs läuft dieser Stand nicht. Ein Build braucht ein älteres JDK (8 oder 11) und möglicherweise Anpassungen an den Abhängigkeiten.
+## Building
+
+The project uses its 2020/2021 state: Gradle 6.5, Android Gradle Plugin 4.1.2, Kotlin 1.3.31, Android API 28 and the discontinued JCenter repository. This state does not run on current JDKs. A build needs an older JDK (8 or 11) and possibly changes to the dependencies.
 
 ```sh
 ./gradlew assembleDebug
 ```
 
-Der Stand wurde für diese Veröffentlichung nicht neu gebaut oder getestet.
+This state was not rebuilt or tested for this publication.
 
-## Sicherheitshinweis
+## Security note
 
-Die App und die Geräte kommunizieren unverschlüsselt und ohne Anmeldung. Nutze sie nur in einem vertrauenswürdigen Netz.
+The app and the devices communicate unencrypted and without authentication. Only use them on a trusted network.
 
-## Lizenz
+## License
 
 Copyright (C) 2020-2026 Andre Lorbach
 
-Dieses Programm ist freie Software und steht unter der [GNU General Public License Version 3](LICENSE). Es wird ohne jede Gewährleistung bereitgestellt. Eingebundene Bibliotheken behalten ihre eigenen Lizenzen.
+This program is free software under the [GNU General Public License version 3](LICENSE). It comes with no warranty. Bundled libraries keep their own licenses.
