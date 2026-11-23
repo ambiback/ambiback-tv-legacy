@@ -29,6 +29,6 @@ Die App und die Geräte kommunizieren unverschlüsselt und ohne Anmeldung. Nutze
 
 ## Lizenz
 
-Copyright (C) 2020-2026 André Lorbach
+Copyright (C) 2020-2026 Andre Lorbach
 
 Dieses Programm ist freie Software und steht unter der [GNU General Public License Version 3](LICENSE). Es wird ohne jede Gewährleistung bereitgestellt. Eingebundene Bibliotheken behalten ihre eigenen Lizenzen.
