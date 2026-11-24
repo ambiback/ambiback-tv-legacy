@@ -1,0 +1,21 @@
+README.de.md
+  s_dadb38ab2af418::t_1537c919755bf4 1-36
+README.md
+  s_dadb38ab2af418::t_e08fbd1f1911ea 3,5,7,9,11,13-16,18-20,26,28,30,32,36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1303b6bca16c0fbb5effbb8b130e17c6f7dc1216",
+  "prompts": {},
+  "sessions": {
+    "s_dadb38ab2af418": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20a54-02b6-7432-a911-a7dc438b2b8a",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "Andre Lorbach <1675286+alorbach@users.noreply.github.com>"
+    }
+  }
+}

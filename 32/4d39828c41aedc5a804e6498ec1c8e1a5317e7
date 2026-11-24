@@ -1,0 +1,19 @@
+README.md
+  s_2cb24bf5f1b2de::t_ea8fa4213e8a2c 32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "324d39828c41aedc5a804e6498ec1c8e1a5317e7",
+  "prompts": {},
+  "sessions": {
+    "s_2cb24bf5f1b2de": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_2cb24bf5f1b2de",
+        "model": "unknown"
+      },
+      "human_author": "Andre Lorbach <1675286+alorbach@users.noreply.github.com>"
+    }
+  }
+}

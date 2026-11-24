@@ -1,0 +1,187 @@
+.gitattributes
+  s_ed4f085c6942da::t_9a1ac90a751561 1-2
+.gitignore
+  s_ed4f085c6942da::t_461a690140e7a8 1-16
+LICENSE
+  s_ed4f085c6942da::t_a1e7a97bf1b65e 1-675
+README.md
+  s_96d2274d1b9c05::t_fa35a8a4ca3b18 1-34
+app/.gitignore
+  s_ed4f085c6942da::t_23f99687f311c9 1
+app/build.gradle
+  s_ed4f085c6942da::t_8377d7bf3d5362 1-55
+app/proguard-rules.pro
+  s_ed4f085c6942da::t_9d8cea720c6153 1-21
+app/src/androidTest/java/com/ambiback/app/ExampleInstrumentedTest.kt
+  s_ed4f085c6942da::t_853130715b9905 1-24
+app/src/main/AndroidManifest.xml
+  s_ed4f085c6942da::t_5c5e13f4ad7d72 1-69
+app/src/main/java/com/ambiback/app/CaptureActivity.kt
+  s_ed4f085c6942da::t_7eb399528e1804 1-114
+app/src/main/java/com/ambiback/app/CaptureService.kt
+  s_ed4f085c6942da::t_f559220ca41b18 1-222
+app/src/main/java/com/ambiback/app/Device.kt
+  s_ed4f085c6942da::t_4e7f42c2ee4447 1-487
+app/src/main/java/com/ambiback/app/DeviceActivity.kt
+  s_ed4f085c6942da::t_05f35fef959cc1 1-43
+app/src/main/java/com/ambiback/app/DeviceAmbiBack.kt
+  s_ed4f085c6942da::t_ce08058f57999c 1-829
+app/src/main/java/com/ambiback/app/MainActivity.kt
+  s_ed4f085c6942da::t_a6b4c010c7952f 1-655
+app/src/main/java/com/ambiback/app/RestarterBroadcastReceiver.kt
+  s_ed4f085c6942da::t_99db6db8c84316 1-42
+app/src/main/java/com/ambiback/app/SettingsActivity.kt
+  s_ed4f085c6942da::t_7ad8d4996d1cac 1-40
+app/src/main/java/com/ambiback/app/aboutActivity.kt
+  s_ed4f085c6942da::t_87cd4bfb75bd74 1-41
+app/src/main/java/com/ambiback/app/capture.kt
+  s_ed4f085c6942da::t_ce9f1805d696df 1-133
+app/src/main/java/com/ambiback/app/globals/CRC.kt
+  s_ed4f085c6942da::t_7e8732d936ecbb 1-65
+app/src/main/java/com/ambiback/app/globals/Static.kt
+  s_ed4f085c6942da::t_7230d076ca1093 1-277
+app/src/main/java/com/ambiback/app/network/UdpServerThread.java
+  s_ed4f085c6942da::t_1c9b8e95ba3c3c 1-203
+app/src/main/java/com/ambiback/app/ui/DeviceRecyclerViewAdapter.kt
+  s_ed4f085c6942da::t_a1e4a32bf42751 1-175
+app/src/main/java/com/ambiback/app/ui/DevicesListFragment.kt
+  s_ed4f085c6942da::t_479cd20adccdc7 1-172
+app/src/main/java/com/ambiback/app/ui/MainFragment.kt
+  s_ed4f085c6942da::t_0109a51d55fb15 1-52
+app/src/main/java/com/ambiback/app/ui/device/DeviceFragment.kt
+  s_ed4f085c6942da::t_6930bbceec07a3 1-36
+app/src/main/java/com/ambiback/app/ui/device/DeviceFragmentAmbiBack.kt
+  s_ed4f085c6942da::t_6cbc7790171cbf 1-123
+app/src/main/java/com/ambiback/app/ui/device/DeviceViewModel.kt
+  s_ed4f085c6942da::t_0b6ed0e54eb52a 1-8
+app/src/main/res/drawable-v24/layout_bluelight.xml
+  s_ed4f085c6942da::t_f2038bc289a6ff 1-13
+app/src/main/res/drawable-v24/layout_green.xml
+  s_ed4f085c6942da::t_a3e61987929f71 1-13
+app/src/main/res/drawable-v24/layout_green_selected.xml
+  s_ed4f085c6942da::t_cd0beb5670c4a0 1-13
+app/src/main/res/drawable/ic_launcher_background.xml
+  s_ed4f085c6942da::t_200c612ba197d3 1-74
+app/src/main/res/drawable/ic_launcher_foreground.xml
+  s_ed4f085c6942da::t_84fffd7affe226 1-34
+app/src/main/res/drawable/ic_menu_camera.xml
+  s_ed4f085c6942da::t_fa6e8ab0f24856 1-12
+app/src/main/res/drawable/ic_menu_gallery.xml
+  s_ed4f085c6942da::t_78a3769dec22fb 1-9
+app/src/main/res/drawable/ic_menu_manage.xml
+  s_ed4f085c6942da::t_0fc42775593ca2 1-9
+app/src/main/res/drawable/ic_menu_send.xml
+  s_ed4f085c6942da::t_f95bf9cb91cc8c 1-9
+app/src/main/res/drawable/ic_menu_share.xml
+  s_ed4f085c6942da::t_c2fa4d9407374f 1-9
+app/src/main/res/drawable/ic_menu_slideshow.xml
+  s_ed4f085c6942da::t_a374df5ff41744 1-9
+app/src/main/res/drawable/layout_yellow.xml
+  s_ed4f085c6942da::t_4144f9c045b715 1-13
+app/src/main/res/drawable/shape_bluelight.xml
+  s_ed4f085c6942da::t_3b1bb919e9aeb4 1-9
+app/src/main/res/drawable/shape_border.xml
+  s_ed4f085c6942da::t_1eef988cb4336b 1-7
+app/src/main/res/drawable/shape_colored.xml
+  s_ed4f085c6942da::t_79a0a2f0ddd2d9 1-10
+app/src/main/res/drawable/shape_light.xml
+  s_ed4f085c6942da::t_898c3560bf53b8 1-10
+app/src/main/res/layout/activity_about.xml
+  s_ed4f085c6942da::t_22eda48f694d3a 1-76
+app/src/main/res/layout/activity_capture.xml
+  s_ed4f085c6942da::t_a577e2cc7a7c21 1-10
+app/src/main/res/layout/activity_main.xml
+  s_ed4f085c6942da::t_04fcfa5e68da81 1-26
+app/src/main/res/layout/activity_main_testing.xml
+  s_ed4f085c6942da::t_55418068bea38d 1-37
+app/src/main/res/layout/app_bar_main.xml
+  s_ed4f085c6942da::t_b1a0090bcc7e6f 1-34
+app/src/main/res/layout/content_main.xml
+  s_ed4f085c6942da::t_8cfab502c6d4b2 1-23
+app/src/main/res/layout/content_main_frame.xml
+  s_ed4f085c6942da::t_42e0ff358e68d5 1-21
+app/src/main/res/layout/content_main_test.xml
+  s_ed4f085c6942da::t_d91ee9299f8e89 1-29
+app/src/main/res/layout/device_activity.xml
+  s_ed4f085c6942da::t_a2cb77eefb2e6b 1-8
+app/src/main/res/layout/device_fragment.xml
+  s_ed4f085c6942da::t_c21e675fc611be 1-20
+app/src/main/res/layout/device_fragment_ambiback.xml
+  s_ed4f085c6942da::t_279ed0209073ae 1-24
+app/src/main/res/layout/fragment_ambiback_mirror.xml
+  s_ed4f085c6942da::t_256692d295b1cc 1-64
+app/src/main/res/layout/fragment_device_item.xml
+  s_ed4f085c6942da::t_1721f8b6b69e0d 1-65
+app/src/main/res/layout/fragment_device_item_list.xml
+  s_ed4f085c6942da::t_2c9f72e427fba7 1-33
+app/src/main/res/layout/nav_header_main.xml
+  s_ed4f085c6942da::t_ee85c58919adbb 1-37
+app/src/main/res/layout/settings_activity.xml
+  s_ed4f085c6942da::t_61031a8fa612cd 1-14
+app/src/main/res/layout/switch_item.xml
+  s_ed4f085c6942da::t_5414990831bbce 1-18
+app/src/main/res/layout/switch_item_ambilight.xml
+  s_ed4f085c6942da::t_3a1625f6d28a5d 1-16
+app/src/main/res/menu/activity_main_drawer.xml
+  s_ed4f085c6942da::t_349f6c0e097080 1-28
+app/src/main/res/menu/main.xml
+  s_ed4f085c6942da::t_a61eb2bfac0d7e 1-31
+app/src/main/res/menu/menu_settings.xml
+  s_ed4f085c6942da::t_9c57529b99d29c 1-10
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+  s_ed4f085c6942da::t_6a9ca16e71e6ca 1-4
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+  s_ed4f085c6942da::t_18fd0ea5f259a9 1-5
+app/src/main/res/values-v21/styles.xml
+  s_ed4f085c6942da::t_e28e0da6ffdf39 1-7
+app/src/main/res/values/arrays.xml
+  s_ed4f085c6942da::t_09863143074794 1-12
+app/src/main/res/values/colors.xml
+  s_ed4f085c6942da::t_801224daabeeff 1-6
+app/src/main/res/values/dimens.xml
+  s_ed4f085c6942da::t_c26472b637274d 1-11
+app/src/main/res/values/strings.xml
+  s_ed4f085c6942da::t_8f17cd8bf6a2fd 1-57
+app/src/main/res/values/styles.xml
+  s_ed4f085c6942da::t_a36e4df2170768 1-21
+app/src/main/res/xml/ambiback_preferences.xml
+  s_ed4f085c6942da::t_0a65a2f163771a 1-43
+app/src/test/java/com/ambiback/app/ExampleUnitTest.kt
+  s_ed4f085c6942da::t_c3a9878fa0deb2 1-17
+build.gradle
+  s_ed4f085c6942da::t_00ff88ca3cd6c8 1-39
+gradle.properties
+  s_ed4f085c6942da::t_2938d846e33033 1-19
+gradle/wrapper/gradle-wrapper.properties
+  s_ed4f085c6942da::t_a62107643f51ec 1-6
+gradlew
+  s_ed4f085c6942da::t_c883757eec32e2 1-172
+gradlew.bat
+  s_ed4f085c6942da::t_ba1c9e54783d84 1-84
+settings.gradle
+  s_ed4f085c6942da::t_0550d28bb9f1dd 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2298851dbda4d221d9c7235a145bb23f389e51e9",
+  "prompts": {},
+  "sessions": {
+    "s_96d2274d1b9c05": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8944ecb0-55bf-4f84-a1ad-0eec21d4b478",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Andre Lorbach <1675286+alorbach@users.noreply.github.com>"
+    },
+    "s_ed4f085c6942da": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "25338f00-8e49-4247-ba73-a2a50acc53dc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Andre Lorbach <1675286+alorbach@users.noreply.github.com>"
+    }
+  }
+}
